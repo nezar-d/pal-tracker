@@ -35,19 +35,19 @@ public class TimeEntry {
         this.id = id;
     }
 
-    long getProjectId() {
+    public long getProjectId() {
         return projectId;
     }
 
-    long getUserId() {
+    public long getUserId() {
         return userId;
     }
 
-     LocalDate getDate() {
+     public LocalDate getDate() {
         return date;
     }
 
-     int getHours() {
+     public int getHours() {
         return hours;
     }
 
